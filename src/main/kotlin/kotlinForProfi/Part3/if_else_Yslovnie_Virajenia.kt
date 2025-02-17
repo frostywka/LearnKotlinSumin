@@ -1,5 +1,6 @@
 package kotlinForProfi.Part3
 
+
 fun main() {
     canTalk2()
     println("__________")
@@ -7,7 +8,7 @@ fun main() {
     println("_____addQuestInIneVAL_____")
     addQuestInIneVAL()
     println("__________")
-
+    mama()
 }
 
 fun canTalk2() {
@@ -102,4 +103,13 @@ fun addQuestInIneVAL() {
 
     playerLevel += 1
     println(playerLevel)
+}
+
+fun mama(){
+    var playerNooo: Int
+//    println(playerNooo) должен быть инициализирован, иначе не соберется
+    println("asdasda")
+    println(HERO_NAME)
+    playerNooo = 5
+    println(playerNooo)
 }

@@ -38,6 +38,7 @@ fun forExp() {
 // String &строка(
 //Текстовая информация
 //"Madrigal" "happy meal"
+
 //Char &символ(
 //Один символ
 //'X'
@@ -45,6 +46,7 @@ fun forExp() {
 //Boolean &логиче, ский(
 //Истина.ложь Да.Нет
 //true false
+
 //Int &целочисленный(
 //Целое число
 //5 "Madrigal".length
