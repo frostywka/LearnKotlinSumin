@@ -8,13 +8,6 @@ fun main() {
 
     println("----------------")
 
-    val wordArray = arrayOf("H","e","l","l","o")
-    println("Исходный массив ${wordArray.contentToString()}")
-    reverseSTRING(wordArray)
-    println("Перевернутый массив ${wordArray.contentToString()}")
-
-    println("----------------")
-
     val charArray = "HELLO".toCharArray()
     println("Исходный массив ${charArray.contentToString()}")
     reverseChar(charArray)
@@ -35,19 +28,7 @@ fun reverseINT(arr: IntArray) {
     }
 }
 
-fun reverseSTRING(arr: Array<String>) {
-    var start = 0
-    var end = arr.size - 1
-
-    while (start < end) {
-        val temp = arr[start]
-        arr[start] = arr[end]
-        arr[end] = temp
-
-        start++
-        end--
-    }
-}
+//fun reverseSTRING(arr: Array<String>)
 
 fun reverseChar(arr: CharArray) {
     var start = 0
